@@ -48,17 +48,36 @@ console.log(arr3);*/
 
 ///LOOP METHODS
 //simple for loop
-let arr = [2,5,7,8,9]
-for(i=0;i<arr.length;i++){
-    arr[i] = arr[i]*2;
+// let arr = [2,5,7,8,9]
+// for(i=0;i<arr.length;i++){
+//     arr[i] = arr[i]*2;
     
-}
-console.log(arr);
+// }
+// console.log(arr);
 
-arr.forEach(function(arr){
-    arr = arr*2
-})
-console.log(arr);
+// arr.forEach(function(arr){
+//     arr = arr*2
+// })
+// console.log(arr);
+// let num = [1,2,3,4]
+// num.forEach(function(num){
+    
+//     num = num*2;
+//     console.log(num);
+// })
+///
+//let arr = [1,2,5,4,78];
+// let newArr = arr.filter(function(arr){
+            
+//     return arr>50;
+// })
+// console.log(newArr);
+let arr = [1,2,5,4,78];
+let arr2 = [5,6,8,9]
+arr2= [...arr2,...arr];
+console.log(arr2);
+
+
 
 
 
