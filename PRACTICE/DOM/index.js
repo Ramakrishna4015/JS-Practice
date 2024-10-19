@@ -59,3 +59,8 @@ Lastdiv.appendChild(ptag)
 
 
 
+let outer  = document.querySelector('.container')
+console.log(outer.parentElement);//gives HTML collections
+console.log(outer.childNodes);//gives node lists
+
+
