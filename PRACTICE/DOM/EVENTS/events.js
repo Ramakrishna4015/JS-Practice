@@ -52,7 +52,7 @@ function AddToCart(){
 function hovering(){
     console.log("item hovered");
     
-}
+} 
 
 ////////////////////////////
 function nameChange(e){
